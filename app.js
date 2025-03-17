@@ -45,7 +45,7 @@ function sortearAmigo() {
     let resultado = document.getElementById("resultado");
 
     // Valida que haya al menos dos amigo en la lista
-    if (nombreAmigos.length === 1) {
+    if (nombreAmigos.length === 0 |  nombreAmigos.length === 1) {
         alert("Por favor, agrega al menos dos amigos antes de sortear.");
         return;
     }
